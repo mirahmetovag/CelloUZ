@@ -1,0 +1,64 @@
+--Address
+    -region
+    -street
+    -house
+    -apartment
+    -entrance
+    -userId
+
+--Products
+    -name
+    -brandId
+    -sellerId
+    -categoryId
+    -rating
+    -sold
+    -price
+    -description
+    -images
+    -isAvailable
+    -characteristics
+        -name
+        -value
+
+--Reviews
+    -comment
+    -grade
+    -image
+    -productId
+    -userId
+
+--Sellers
+    -name
+    -image
+    -description
+    -vatNumber
+    -pinfl
+    -contractType courier| Didox
+    -accountType Primary | Secondary
+    -deliveryType SELLO | myself
+    -?link
+    -estimatedNumberOfProducts
+    -managerName
+    -managerSurname
+    -contactNumber
+    -password
+    -confirmPassword
+    -email
+    -legalForm
+    -legalName
+    -address 
+    -mfoCode
+    -accountNumber
+    -supervisorName
+    -supervisorSurname
+    -supervisorMiddlename
+    -supervisorNumber
+
+--Orders
+    -numberOfProducts 
+    -cost
+    -discount
+    -delivery 
+    -userId
+    -productId
